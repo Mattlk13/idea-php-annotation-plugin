@@ -243,6 +243,7 @@
 
       <projectService serviceImplementation="de.espend.idea.php.annotation.Settings"/>
       <fileBasedIndex implementation="de.espend.idea.php.annotation.AnnotationStubIndex"/>
+      <fileBasedIndex implementation="de.espend.idea.php.annotation.AnnotationUsageIndex"/>
 
       <gotoDeclarationHandler implementation="de.espend.idea.php.annotation.navigation.AnnotationGoToDeclarationHandler"/>
       <completion.contributor language="PHP" implementationClass="de.espend.idea.php.annotation.completion.AnnotationCompletionContributor"/>
